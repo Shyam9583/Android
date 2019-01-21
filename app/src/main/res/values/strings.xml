@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="album">singer\'s album</string>
+    <string name="lineSeparator">Separator</string>
+</resources>
