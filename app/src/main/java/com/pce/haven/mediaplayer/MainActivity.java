@@ -156,4 +156,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         thread.start();
     }
 
+    @Override
+    protected void onDestroy() {
+        thread.interrupt();
+        mediaPlayer.release();
+        super.onDestroy();
+    }
 }
